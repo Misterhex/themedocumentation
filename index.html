@@ -1,0 +1,728 @@
+<!doctype html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>Boston - Wordpress Theme</title>
+
+    <meta name="description" content="Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to contact us using support forum http://support.createit.pl/ or email via the user page contact form on this page: http://themeforest.net/user/createit-pl/portfolio Thanks so much!">
+    <meta name="author" content="createIT">
+    <meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+
+
+    <link type="text/css" rel="stylesheet" href="syntaxh/css/shCoreDefault.css">
+    <link rel="stylesheet" href="css/documenter_style.css" media="all">
+
+
+    <script src="js/jquery.1.6.4.js"></script>
+
+    <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+
+    <script>document.createElement('section');
+    var duration = 500, easing = 'swing';</script>
+    <script src="js/script.js"></script>
+
+
+    <style>
+        html { background-color: #FFFFFF; color: #383838; }
+        ::-moz-selection { background: #444444; color: #DDDDDD; }
+        ::selection { background: #444444; color: #DDDDDD; }
+        #documenter_sidebar #documenter_logo { background-image: url(); }
+        a { color: #0000FF; }
+        hr { border-top: 1px solid #EBEBEB; border-bottom: 1px solid #FFFFFF; }
+        #documenter_sidebar, #documenter_sidebar ol a { background-color: #DDDDDD; color: #222222; }
+        #documenter_sidebar ol a { -webkit-text-shadow: 1px 1px 0px #EEEEEE; -moz-text-shadow: 1px 1px 0px #EEEEEE; text-shadow: 1px 1px 0px #EEEEEE; }
+        #documenter_sidebar ol { border-top: 1px solid #AAAAAA; }
+        #documenter_sidebar ol a { border-top: 1px solid #EEEEEE; border-bottom: 1px solid #AAAAAA; color: #444444; }
+        #documenter_sidebar ol a:hover { background: #444444; color: #DDDDDD; border-top: 1px solid #444444; }
+        #documenter_sidebar ol a.current { background: #444444; color: #DDDDDD; border-top: 1px solid #444444; }
+        #documenter_copyright { display: block !important; visibility: visible !important; }
+    </style>
+
+</head>
+<body>
+<div id="documenter_sidebar">
+    <a href="#intro" id="documenter_logo"></a>
+    <ol id="documenter_nav">
+
+        <li class="current"><a href="#intro">Intro</a></li>
+        <li><a href="#startup">Startup</a></li>
+        <li><a href="#themeSetup">Theme Setup</a></li>
+        <li><a href="#blog">Blog Setup</a></li>
+        <li><a href="#onepager">Onepager Setup</a></li>
+        <li><a href="#postFormats">Post Formats</a></li>
+        <li><a href="#portfolio">Portfolio Setup</a></li>
+        <li><a href="#team">Team Setup</a></li>
+        <li><a href="#shortcodes">Theme Shortcodes</a></li>
+        <li><a href="#widgets">Theme Widgets</a></li>
+        <li><a href="#plugins">Bundled plugins</a></li>
+        <li><a href="#wpml">WPML setup and usage</a></li>
+        <li><a href="#updates">Theme Updates</a></li>
+        <li><a href="#psdFiles">PSD Files</a></li>
+        <li><a href="#cssStr">CSS Structure</a></li>
+        <li><a href="#videos">Video tutorials</a></li>
+        <li><a href="#credits">Sources and Credits</a></li>
+
+    </ol>
+    <div id="documenter_copyright">Copyright createIT 2012<br>
+        made with the <a href="http://rxa.li/documenter">Documenter v1.6</a>
+    </div>
+</div>
+<div id="documenter_content">
+<section id="intro"><h1>Boston</h1>
+
+    <h2>Wordpress Theme</h2>
+    <hr>
+    <ul>
+        <li>Created: 02/14/2014</li>
+        <li>latest Update: 02/14/2014</li>
+        <li>By: createIT</li>
+        <li><a href="http://themeforest.net/user/createit-pl/portfolio">themeforest.net/user/createit-pl/portfolio</a></li>
+        <li>Email: <a href="mailto:office@createit.pl">office@createit.pl</a>
+        </li>
+    </ul>
+    <p>Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form on this page.
+        http://themeforest.net/user/createit-pl/portfolio Thanks so much!</p>
+
+
+</section>
+
+<section id="startup">
+    <h3>Startup</h3>
+    <hr class="notop">
+    <h4>Installation</h4>
+
+    <p>The theme can be installed by uploading it to your server via ftp in wp-content/themes folder. Copy themes directory into wp-content/themes of your WordPress installation. <br>You can also use archive (zip file)
+        from the theme's folder (after you've unarchived the package you've downloaded from
+        Themeforest) and install it via <i>Appearance > Themes > Install Themes</i> tab. To use the theme you need to activate it.</p>
+
+    <p><strong>Remember that you MUST install boston theme before any other flavour! Boston theme contains all required files, other themes are Child Themes only.</strong></p>
+
+    <p>After installation you should see the following folder structure:</p>
+    <ul>
+        <li><strong>assets</strong>
+            <ul>
+                <li><strong>css</strong> - theme stylesheets</li>
+                <li><strong>img</strong> - theme images</li>
+                <li><strong>js</strong> - theme javascripts</li>
+            </ul>
+        </li>
+        <li><strong>docs</strong> - theme documentation</li>
+        <li><strong>framework</strong> - custom framework for WordPress Themes</li>
+        <li><strong>lang</strong> - .POT translation template file for theme</li>
+        <li><strong>templates</strong> - theme specific template files</li>
+        <li><strong>theme</strong> - theme specific files</li>
+    </ul>
+
+    <h4>Setting up Theme Options</h4>
+
+    <p>Once your theme is installed you can start theme configuration</p>
+    <ul>
+        <li>Menu type</li>
+        <p> via <i>Appearance / Theme Option / Style - Layoutt</i> select menu type . </p>
+        <li>Content</li>
+        <p>via <i>Pages / Add new</i> create page content - check out examples below:</p>
+
+        <p>Code</p>
+        <img src="assets/img/example.png" style="width:100%; height:auto" alt=" ">
+
+        <p>And result</p>
+        <img src="assets/img/example_page.png" style="width:100%; height:auto" alt=" ">
+        <li>Setting up Homepage</li>
+        <p> To set up homepage you need to use <i>Appearance / Theme Option / General - Pages</i> (at least one page should be added via <i>Pages / Add new</i>). If you'd set up home page via <i>Settings/Reading - Front
+            page displays</i> it wont' work properly.</p>
+        <li>Posts</li>
+        <p> via <i>Appearance / Theme Option / General - Posts</i> set up your blog page, where posts will be displayed.</p>
+        <li>Set up menu</li>
+        <p> via <i>Appearance / Menus</i> set up menu. To create Onepager follow <a href="#onepager">this</a> steps.<br>
+            In multipage we recommend set up standard menu:
+            > add pages from the left side to your menu and select chceckbox "Primary Navigation" below.</p>
+        <li>Widgets</li>
+        <p> Set up widgets to your page in section <i>Appearance / Widgets</i>. Drag and drop widget in section, in which you want it to appear, then set up widget options. To find out more about section check out
+            widgetarea description. If you decide to exclude some widget, but you may want to use it in future, just drag it and drop in "Inactive Widgets" area. You won't lose your widget settings in that way.</p>
+    </ul>
+
+    <h4>1-Click Demo Import</h4>
+
+    <p>You can easily configure theme to look exactly like on a demo page. Once theme is activated, navigate to <i>Appearance > Theme Options > General > 1-Click Demo Import</i> and click "import" button.</p>
+
+    <p>That's it - your site is now ready!</p>
+
+
+    <h4>XML import</h4>
+
+    <p>Please refer to <strong>1-Click Demo Import</strong> section to automatically setup Wordpress installation. All steps described below are configured by 1-Click Demo Import.</p>
+
+    <p>Before import data and options you should set the appropriate values for the "Thumbnail size" and "Medium size" in "Image Size" section via <i>Settings > Media</i>.
+
+    <h5>1. Import content</h5>
+
+    <p>You can import posts, pages, comments, categories and tags from your Wordpress export file via <i>Tools > Import</i>. You can use our demo data for the proper theme from the x_demo_content file in <i>Demo
+        Content</i> folder.</p>
+    <h5>2. Import options</h5>
+
+    <p>If you have exported some previous Boston Theme options, you can load it via <i>General > Import/Export</i> section in <i>Appearance > Theme Options</i>. You can use our demo options for the proper theme from the
+        .txt file in <i>Demo Content</i> folder.</p>
+
+    <p>Please remember to activate the main menu via <i>Appearance > Menus</i></p>
+    <h5>3. Import Revolution Slider (example from demo page)</h5>
+
+    <ol>
+        <li>In Panel Administration choose "Revolution Slider" section from main menu</li>
+        <li>Create new Slider with this options: Slider Alias: main, Slider Type: Full Width</li>
+        <li>Choose "Edit Slides" and then "To Slider Settings"</li>
+        <li>In Edit Slider Options, at the bottom, please click "Show Export / Import" link and "Choose the import file"
+            from "Demo Content/revolution_slider_homepage.txt" nad click "Import Slider".
+        </li>
+
+    </ol>
+
+
+    <h4>Simple configuration</h4>
+
+    <p>In this chapter we will show you what you need to do to create a simple site using our theme. Deeper analysis on the functionality of the theme is provided in several next chapters. You can also see the usage
+        showcase of the theme on our <a target="_blank" href="http://boston.wp.themeforest.createit.pl">demo site</a></p>
+    <h5>1. Logo setup</h5>
+
+    <p>Go to <i>Appearance > Theme Options</i> and choose the logo icons via Media Library. Always remember to click the "Save changes" button after providing some changes via <i>Theme Options</i> screen.</p>
+    <h5>2. Setup pages</h5>
+
+    <p>Create pages for Your site via <i>Pages > Add New</i> menu. For the beginning we recommend to create Homepage and set it as the Wordpress Homepage via <i>Pages</i> section in <i>Appearance > Theme Options</i>.</p>
+
+    <p>When creating your pages, remember you can change the <a href="#templates">template</a> of each of the pages via <i>Page Attributes</i> section in <i>Pages > Add New</i></p>
+
+    <h5>3. Setup blog</h5>
+
+    <p>Activate your blog index and single post pages via <i>Posts</i> section in <i>Appearance > Theme Options</i> menu. In theme options you can also <a href="#optionsPosts">customize</a> the content of these
+        pages.</p>
+    <h5>4. Setup portfolio</h5>
+
+    <p>Create your portfolio via <i>Portfolio items</i> menu (the full discussion on creating the portfolio items and taxonomy is available <a href="#portfolio">here</a>).
+    <h5>5. Setup navigation menu</h5>
+
+    <p>Our theme provides the main menu functionality available via <i>Appearance > Menus</i>, where you can create and activate the navigation tree available on the top of the site.</p>
+    <h5>6. Setup widgets</h5>
+
+    <p>We provide 5 widget slots (one sidebar and four footer columns). You can add there any default Wordpress widget and any of our <a href="#widgets">custom theme widgets</a></p>
+    <h5>7. Customize pages</h5>
+
+    <p>This theme is built upon <a href="http://twitter.github.com/bootstrap">Bootstrap framework</a> and is fully responsive.</p>
+
+    <p>You can customize the css and javascript via <i>Code</i> section in <i>Appearance > Theme Options</i> menu. Don't forget to explore more advanced options of the theme.</p>
+
+    <p>There is a large amount of the powerfull <a href="#shortcodes">shortcodes</a> provided by our theme, which you can use on every single page on your site.</p>
+
+    <h5>8. Layout options</h5>
+
+    <p>You can setup your page with global layout setting available via <i>Appearance > Theme Options > Style</i> menu. We provide 13 different background patterns and two types of layout - boxed and full.</p>
+
+    <p>Additionally every page/post/portfolio item layout can be configured separately via edit screen of the item - option "Use boxed layout" in the "Template settings" section.</p>
+
+    <h5>9. Page title and breadcrumbs</h5>
+
+    <p>You can turn on/off these elements globally via <i>Appearance > Theme Options</i>. You can setup different configuration for every page type - page, post, portfolio, faq via tab in theme options.</p>
+
+    <p>Additionally every page/post/portfolio item can be configured separately via edit screen of the item - options "Show title", "Show breadcrumbs" in the "Template settings" section.</p>
+</section>
+
+<section id="themeSetup">
+    <h3>Theme Setup</h3>
+    <hr class="notop">
+
+    <h4 id="options">Options</h4>
+    <img src="assets/img/options_menu.jpg" alt=" ">
+
+    <p>You can access custom theme options via <i>Appearance > Theme Options</i> from wordpress admin bar. Most of the options are self-explanatory and also some help information is provided.</p>
+    <img src="assets/img/options.jpg" style="max-width: 100%;" alt=" ">
+
+    <p><br></p>
+    <h5>1. General</h5>
+
+    <p>Basic logo and footer configuration.</p>
+    <ul>
+        <li><strong>Logo</strong> - main logo</li>
+        <li><strong>Logo html</strong> - main text logo</li>
+        <li><strong>Login logo</strong> - logo for login page</li>
+        <li><strong>Favicon</strong></li>
+        <li><strong>Apple touch icon</strong> - icon for apple application</li>
+        <li><strong>Search box</strong> - you can decide to put search box on top site</li>
+        <li><strong>Socials in top</strong> - you can decide to put soocials box on top site</li>
+        <img src="assets/img/search_box_and_socials.png" style="max-width: 100%;" alt=" ">
+        <li><strong>Footer text</strong> - static footer text, provides two dynamic data shortcodes: %year% (current year) and %name% (site name)</li>
+        <img src="assets/img/footer_text.png" style="max-width: 100%;" alt=" ">
+        <li><strong>Enable animations</strong> - you can decide to use animations on site</li>
+    </ul>
+
+    <p>The <i>Import/Export</i> tab allows you to save your current theme options to the text file or restore them from existing theme options export file.</p>
+
+    <h5>2. Style</h5>
+    <h6>2.1 Layout</h6>
+    <ul>
+        <li><strong>Menu type</strong> - you can decide how look menu
+            <ul>
+                <li>Type 1</li>
+                <img src="assets/img/menu_type1.png" style="max-width: 100%;" alt=" ">
+                <li>Type 2</li>
+                <img src="assets/img/menu_type2.png" style="max-width: 100%;" alt=" ">
+                <li>Type 3</li>
+                <img src="assets/img/menu_type3.png" style="max-width: 100%;" alt=" ">
+                <li>Type 4</li>
+                <p>on the top of side</p>
+                <img src="assets/img/menu_type3_before.png" style="max-width: 100%;" alt="">
+
+                <p>after scroll</p>
+                <img src="assets/img/menu_type3_after.png" style="max-width: 100%;" alt="">
+                <li>Sticky</li>
+                <img src="assets/img/menu_sticky.png" style="max-width: 100%;" alt="">
+                <li>Color</li>
+                <img src="assets/img/menu_color.png" style="max-width: 100%;" alt="">
+            </ul>
+        </li>
+        <li><strong>Position menu</strong> - you can decide how menu will be located relative header code</li>
+        <li><strong>Head parallax image</strong> - you can decide to put background for title and breadcrumbs for all sites</li>
+        <li><strong>Head button</strong> - you can decide to put button under title side in all sites .If you want add it you must make up option <i>Head button content</i>
+            <ul>
+                <li><strong>Head button link</strong> - you can add link to button under title in all sites</li>
+                <li><strong>Head button color</strong> - you can change color button under title in all sites</li>
+                <li><strong>Head button content</strong> - you can add content in button under title in all sites</li>
+            </ul>
+        </li>
+        <img src="assets/img/title_site.png" style="max-width: 100%;" alt="">
+        <li><strong>Fotter type</strong> - you can change type of style in footer
+            <ul>
+                <li>Type 1</li>
+                <img src="assets/img/footer_type2.png" style="max-width: 100%;" alt=" ">
+                <li>Type 2</li>
+                <img src="assets/img/footer_type1.png" style="max-width: 100%;" alt=" ">
+            </ul>
+        </li>
+        <li><strong>Number of footer columns</strong> - you can decide how many column will have footer</li>
+    </ul>
+    <h6>2.2 Font</h6>
+
+    <p>You can configure global font style,size and header size</p>
+    <h6>2.3 Color</h6>
+
+    <p>You can configure global settings for color side</p>
+    <h5>3. Pages</h5>
+    <ul>
+        <li><strong>Home page</strong> - you decide with page should be the home page?</li>
+        <li><strong>Show title on pages</strong> - you decide to show or hide title in all pages</li>
+        <li><strong>Show breadcrumbs on pages</strong> - you decide to show or hide breadcrumbs in all pages</li>
+        <li><strong>Comments</strong> - you decide to show or hide comments in all pages</li>
+        <li><strong>Comment form</strong> - you decide to show or hide comment form in all pages</li>
+    </ul>
+
+    <h5 id="optionsPosts">4. Posts</h5>
+    <h6>4.1 Index</h6>
+    <ul>
+        <li><strong>Index page</strong> - you decide which page should be the blog index page</li>
+        <li><strong>Show posts index page title</strong> - you can decide to show or hide title in blog index page</li>
+        <li><strong>Show breadcrumbs</strong> - you can decide to show or hide breadcrumbs in blog index page</li>
+        <li><strong>Posts per page</strong> - you can decide how many posts should be displayed on a single blog index page</li>
+        <li><strong>Date</strong> - you can decide to show or hide date for every single post in the list</li>
+        <li><strong>Image/video/gallery</strong> - you can decide to show or hide images,video,gallery for every single post in the list</li>
+        <li><strong>Title / quote author</strong> - you can decide to show or hide title,quote author for every single post in the list</li>
+        <li><strong>Content</strong> - you can decide to show or hide content for every single post in the list</li>
+        <li><strong>Full text</strong> - you can decide to show full text or excerpt text for every single post in the list</li>
+        <li><strong>Categories</strong> - you can decide to show or hide categories summary for every single post in the list</li>
+        <li><strong>Tags</strong> - you can decide to show or hide tags for every single post in the list</li>
+        <li><strong>Comments link</strong> - you can decide to show or hide comments link for every single post in the list</li>
+        <li><strong>Author link</strong> - you can decide to show or hide author link for every single post in the list</li>
+        <li><strong>Read more link</strong> - you can decide to show or hide Read more link for every single post in the list</li>
+        <li><strong>Sidebar</strong> - you can decide to show or hide sidebar in blog index page</li>
+    </ul>
+    <h6>4.2 Single</h6>
+    <ul>
+        <li><strong>Post page title</strong> - you can write post page title for all singe posts</li>
+        <li><strong>Show breadcrumbs</strong> - you can decide to show or hide breadcrumbs in all posts</li>
+        <li><strong>Head parallax image</strong> - you can decide to put background for title and breadcrumbs for all posts</li>
+        <li><strong>Head button</strong> - you can decide to put button under title side in all posts .If you want add it you must make up option <i>Head button content</i>
+            <ul>
+                <li><strong>Head button link</strong> - you can add link to button under title in all posts</li>
+                <li><strong>Head button color</strong> - you can change color button under title in all posts</li>
+                <li><strong>Head button content</strong> - you can add content in button under title in all posts</li>
+            </ul>
+        </li>
+        <li><strong>Date</strong> show or hide date in all posts</li>
+        <li><strong>Image / video / gallery</strong> - you can decide to show or hide image,video,gallery in all posts</li>
+        <li><strong>Title / quote author</strong> - you can decide to show or hide title,quote author in all posts</li>
+        <li><strong>Content</strong> - you can decide to show or hide content in all posts</li>
+        <li><strong>Categories</strong> - you can decide to show or hide categories summary in all posts</li>
+        <li><strong>Tags</strong> - you can decide to show or hide tags in all posts</li>
+        <li><strong>Comments link</strong> - you can decide to show or hide comments link in all posts</li>
+        <li><strong>Author link</strong> - you can decide to show or hide author link in all posts</li>
+        <li><strong>Comments</strong> - you can decide to show or hide comments summary in all posts</li>
+        <li><strong>Comment form</strong> - you can decide to show or hide comment form in all posts</li>
+        <li><strong>Sidebar</strong> - you can decide to show or hide sidebar in all posts</li>
+        <li><strong>Socials</strong> - you can decide to show or hide socials in all posts</li>
+    </ul>
+
+    <img src="assets/img/title_site.png" style="max-width: 100%;" alt="">
+    <h5 id="optionsPortfolio">5. Portfolio</h5>
+
+    <p>Portfolio elements can be configure analogously to posts.</p>
+
+    <h5 id="optionsTeam">6. Team</h5>
+
+    <p>Team elements can be configure analogously to posts.</p>
+
+    <h5 id="optionsSocials">7. Socials</h5>
+
+    <p>You can add link to your profile on(Facebook ,Twitter ,etc...). And til will be seen in all posts and socials in top</p>
+
+    <h5>8. Code</h5>
+
+    <p>You can set account number (UA-XXXXXXXX-X) for the Google Analytics module used for tracking the site.</p>
+
+    <p>In this section you can also set any custom CSS or Javascript code, which will be used on Your site with the highest priority.</p>
+
+    <h4 id="templates">Templates, sidebar and footer</h4>
+
+    <p>The theme provides 2 basic templates for site pages - no sidebar (default) and right sidebar:</p>
+    <img src="assets/img/content.png" style="width:100px; height:100px;" alt=" ">
+    <img src="assets/img/content-sidebar.png" style="width:100px; height:100px;" alt=" ">
+
+    <p>The footer is built from 1,3 or 4 columns which gives you a flexible way to arrange the content of it.</p>
+    <img src="assets/img/footer1.png" style="width:200px; height:100px;" alt=" "><br><br>
+    <img src="assets/img/footer3.png" style="width:200px; height:100px;" alt=" "><br><br>
+    <img src="assets/img/footer.png" style="width:200px; height:100px;" alt=" ">
+</section>
+
+<section id="blog">
+    <h3>Blog Setup</h3>
+    <hr class="notop">
+    <p>Blog pages configuration is described in <a href="#options">Options</a> section.</p>
+</section>
+
+<section id="onepager">
+    <h3>Onepager Setup</h3>
+    <hr class="notop">
+    <p>
+        To create onepager site with "scroll to section" menu follow these steps :<br>
+        1. Create page with all sections. Each section should begin with [title_row] shortcode or any other html element
+        with unique id,
+        for example :
+    </p>
+
+      <pre>
+      [row header="Our Work" id="work"]
+        (...) content (...)
+      [row header="Services" id="services"]
+        (...) content (...)
+      [row header="About us" id="about"]
+        (...) content (...)
+      </pre>
+
+    <p>2. In Appearance / Menus create new main menu (using "Custom Links" option), where URL will be section id with
+        "/#" sign, for example :
+        /#services or /#about. We recommend to set the URL scrolling to the top of the page as '#top' - it will scroll
+        to the very top of the page.<br>
+    </p>
+
+
+</section>
+
+<section id="postFormats">
+    <h3>Post Formats</h3>
+    <hr class="notop">
+    <p>The theme supports different post formats in order to change the appearance of the content. You can use standard, image, gallery, audio, video, aside, quote and link formats.</p>
+
+    <h4>Standard post format</h4>
+
+    <p>Typical appearance, the content will not be changed.</p>
+
+    <h4>Image post format</h4>
+
+    <p>To use it, select "Image" from the "format" section. The featured image and meta data will be shown.</p>
+
+    <h4>Gallery post format</h4>
+
+    <p>To use it, select "Gallery" from the "format" section. You can create the gallery for you post or use any Revolution Slider slideshow previously created. You can choose it from the additional post menu in "Gallery
+        format settings" section.</p>
+
+    <h4>Audio post format</h4>
+
+    <p>To use it, select "Audio" from the "format" section. You will find the additional "Audio format settings" to upload .mp3 or .ogg/.oga self hosted files (you have to provide both formats for appropriate display
+        across all browsers.). You can additionally provide the poster file.</p>
+
+    <h4>Video post format</h4>
+
+    <p>To use it, select "Video" from the "format" section. You will find the additional "Video format settings". You can upload self hosted .m4v and .ogv files (you have to provide both formats for appropriate display
+        across all browsers.). Additionally you can provide a 'direct link' to embed movie from popular services like Youtube, Vimeo or Dailymotion or use your own embed code.</p>
+
+    <h4>Aside post format</h4>
+
+    <p>To use it, select "Aside" from the "format" section. Your post content will be shown, your title not.</p>
+
+    <h4>Quote post format</h4>
+
+    <p>To use it, select "Quote" from the "format" section. You will find the additional "Quote format settings" to enter your quote. Your post title will be used as the quote source/author</p>
+
+    <h4>Link post format</h4>
+
+    <p>To use it, select "Link" from the "format" section. You will find the additional "Quote format settings" to enter your link. Your URL will be shown and your post title will be used as the link text.</p>
+
+</section>
+
+
+<section id="portfolio">
+    <h3>Portfolio Setup</h3>
+    <hr class="notop">
+    <p>The theme comes with a custom post type for portfolio (works). Portfolio pages configuration is described in <a href="#options">Options</a> section.</p>
+
+    <p>Regular blog posts are separated from portfolio items - in the main Wordpress Admin menu you can find section <i>Portfolio items</i></p>
+    <img src="assets/img/portfolio_menu.jpg" alt=" ">
+    <h4>Add new portfolio item</h4>
+
+    <p>You can add new portfolio item via <i>Portfolio items > Add New</i>. Beside regular post elements like <strong>title</strong>, <strong>description</strong>, <strong>excerpt</strong>, <strong>featured
+        image</strong> (which is very important - it will be used both on the list of works as well as on the single work page), you can also define <strong>client</strong>, <strong>date</strong>, <strong>Url</strong>,
+        <strong>external url</strong> (which will be used
+        on the portfolio public page) , <strong>featured video</strong> (it will be displayed instead of the featured image on the single portfolio item page) and <strong>socials</strong> (you can add link to your
+        profile on(Facebook ,Twitter ,etc...) .).</p>
+    <h4>Portfolio taxonomy</h4>
+
+    <p>You can organize your works with portfolio categories and tags which are built using Wordpress custom taxonomy functionality (they are separated from regular Wordpress categories and tags and are
+        accessible via <i>Portfolio items > Categories</i> and <i>Portfolio items > Tags</i>).
+
+</section>
+
+<section id="team">
+    <h3>Team Setup</h3>
+    <hr class="notop">
+    <p>The theme comes with a custom post type for team. Team pages configuration is described in <a href="#options">Options</a> section.</p>
+
+    <p>Regular blog posts are separated from team items - in the main Wordpress Admin menu you can find section <i>Team items</i></p>
+    <img src="assets/img/person_menu.jpg" alt=" ">
+    <h4>Add new team item</h4>
+
+    <p>You can add new team item via <i>Team items > Add New</i>. Beside regular post elements like <strong>title</strong>, <strong>description</strong>, <strong>excerpt</strong>, <strong>featured
+        image</strong> (which is very important - it will be used both on the list of works as well as on the single work page), you can also define <strong>socials</strong> (you can add link to your profile on(Facebook
+        ,Twitter ,etc...) .).</p>
+
+    <h4>Team taxonomy</h4>
+
+    <p>You can organize your works with portfolio categories and tags which are built using Wordpress custom taxonomy functionality (they are separated from regular Wordpress categories and tags and are
+        accessible via <i>Team items > Categories</i> and <i>Team items > Tags</i>).
+
+</section>
+
+<section id="shortcodes">
+    <h3>Theme Shortcodes</h3>
+    <hr class="notop">
+    <p>It's very important to understand the mechanism of building the page structure using shortcodes. Each row of the content should be built with the [row] shortcode and then each row divided into columns with the
+        [x_column] shortcodes (please see bootstrap documentation to see the meaning of the "row" and "spanX" classes). It gives you a very flexible way to arrange the content and makes you sure everything will look
+        exactly as you wish.</p>
+
+    <p>You can find full shortcode documentation on our <a target="_blank" href="http://boston.wp.themeforest.createit.pl">demo site</a>.</p>
+
+    <p>We provide the shortcodes generator, which is also available in fullscreen mode:</p>
+
+</section>
+
+<section id="widgets">
+    <h3>Theme Widgets</h3>
+    <hr class="notop">
+    <ul>
+        <li><strong>CT-Contact</strong> - displays Contact; a widget alternative for the [contact] shortcode</li>
+        <li><strong>CT-Facebook</strong> - displays mini Facebook profile</li>
+        <li><strong>CT-Flickr photostream</strong> - displays Flickr photo stream; a widget alternative for the [flickr] shortcode</li>
+        <li><strong>CT-Google Maps</strong> - displays Google Maps; a widget alternative for the [google_maps] shortcode</li>
+        <li><strong>CT-Newsletter form</strong> - displays newsletter form; a widget alternative for the [newsletter] shortcode</li>
+        <li><strong>CT-Recent Posts</strong> - displays recent posts; a widget alternative for the [recent_posts] shortcode</li>
+        <li><strong>CT-Socials</strong> - displays Your socials</li>
+        <li><strong>CT-Twitter</strong> - displays Recent Tweets</li>
+    </ul>
+</section>
+
+<section id="plugins">
+    <h3>Bundled Plugins</h3>
+    <hr class="notop">
+    <p>
+        Boston comes with plugins. After theme activation, a list of recommended plugins will appear (if not already installed and activated). All plugins are optional but highly recommended.
+    </p>
+    <ul>
+        <li>Revolution slider - create animated galleries with custom effects, texts, embed videos etc. <a href="#videos">Watch video tutorial</a></li>
+        <li>Custom Sidebars - create sidebars and assign to each post / page / custom_post / taxonomy.</li>
+    </ul>
+</section>
+
+<section id="wpml">
+    <h3>WPML setup and usage</h3>
+
+    <p><strong>Note!</strong> This theme allows you to easily translate content and their labels using included shortcode options. If all you would like to do is translate your site into 1 language and only customer page
+        (not backoffice), you don't need to use WPML at all.</p>
+    <hr class="notop">
+    <h4>Setup</h4>
+    <ul>
+        <li>Instal plugins: <a target="_blank" href="http://wpml.org/">WPML Multilingual CMS, WPML String Translation and WPML Translation Management</a> (<a target="_blank" href="http://wpml.org/faq/install-wpml/">more
+            info</a>)
+        </li>
+        <li>Activate newly installed plugin</li>
+        <li>Navigate to WPML menu and configurate it:
+            <ul>
+                <li>Select the language of your existing content (or just a default language)</li>
+                <li>Select the languages to enable for your site (you can also add and remove languages later <a target="_blank" href="http://wpml.org/documentation/getting-started-guide/language-setup/">more info</a>)
+                </li>
+                <li>Select switcher options ie. how you would like to select your languages (<a target="_blank" href="http://wpml.org/documentation/getting-started-guide/language-setup/language-switcher-options/">more
+                    info</a>)
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h4>Translating Site Content</h4>
+
+    <p>WPML creates different posts, pages and custom types for every single languages and connects them together. This means that every page has its own title, body and meta-fields.</p>
+
+    <p>WPML offers two ways for translating content:</p>
+    <ul>
+        <li>Manually, by clicking on the + icons (<a target="_blank" href="http://wpml.org/documentation/translating-your-contents/creating-translations-manually/">more info</a>)</li>
+        <li>Using WPML’s Translation Management module (<a target="_blank" href="http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/">more info</a>)</li>
+    </ul>
+
+</section>
+
+<section id="updates">
+    <h3>Theme Updates</h3>
+    <hr class="notop">
+    <p>Theme comes with automatic update feature. When new version is available, notice will be visible in Appearance - Themes page. <a href="#videos">View video tutorial</a>.<br/><br/>
+        <strong>Note that modified theme files will be deleted. <br><a href="#cssStr">CSS Structure</a> section describes how to modify theme without loosing any changes.</strong>
+    </p>
+</section>
+
+<section id="psdFiles">
+    <h3>PSD Files</h3>
+    <hr class="notop">
+    <p>This theme is bundled with 37 PSD files which can be found inside downloaded package in PSD directory. </p>
+
+    <p>
+        Each PSD file is of course layered, layers are groupped into directories.
+        If you'd like to change anything in the page layout, please put jpg/png image in HTML/img directory.
+    </p>
+</section>
+
+<section id="cssStr">
+    <h3>CSS Structure</h3>
+    <hr class="notop">
+    <p>Main css file is style.css, which include bootstrap framework and all page styles. <br>
+        If needed we include also css files for jquery libraries (like flexslider).<br>
+
+        <strong>Structure of the style.css file:</strong></p>
+
+    <ol>
+        <li>Bootstrap CSS Framework v. 2.2.2.</li>
+        <li>General Styles
+            <ul style="margin:0;">
+                <li>Font Face</li>
+                <li>Headers</li>
+                <li>Hover Overlay</li>
+                <li>Lists</li>
+                <li>Social Icons</li>
+                <li>Main Menu</li>
+                <li>COMPONENTS
+                    <ul style="margin:0;">
+                        <li>boxes</li>
+                        <li>icons</li>
+                        <li>twitterBox</li>
+                        <li>contactBox</li>
+                        <li>forms</li>
+                        <li>buttons</li>
+                        <li>sliders</li>
+                        <li>accordion</li>
+                        <li>tabs</li>
+                        <li>alerts box</li>
+                        <li>table</li>
+                        <li>price table</li>
+                        <li>progress bar</li>
+                    </ul>
+                </li>
+                <li>STYLES FOR PAGES
+                    <ul style="margin:0;">
+                        <li>portfolio</li>
+                        <li>typography</li>
+                        <li>faq page</li>
+                        <li>blog page</li>
+                        <li>page404</li>
+                    </ul>
+                </li>
+                <li>media queries, adjustments
+                    <ul style="margin:0;">
+                        <li>@media (max-width: 1020px) {}</li>
+                        <li>@media (max-width: 979px){}</li>
+                        <li>@media (max-width: 767px) {}</li>
+                        <li>@media (max-width: 480px) {}</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>
+        If you would like to change css, the best way is to add custom css in Wordpress Panel.<br>
+        Please go to Appearance / Theme Options / Code / Custom styles - Custom CSS.<br>
+        In Custom CSS textarea you can paste any css code that will overwrite default styles.<br>
+    </p>
+</section>
+
+<section id="videos">
+    <h3>Video tutorials</h3>
+    <hr class="notop">
+    <ul>
+        <li><a href="http://www.screenr.com/7S47">How to update theme using Automatic Theme Update?</a></li>
+        <li><a href="http://www.screenr.com/bP67">Theme activation and demo content setup</a></li>
+        <li><a href="http://www.screenr.com/nU47">Revolution slider - installation and usage</a></li>
+    </ul>
+</section>
+
+
+<section id="credits">
+    <h3>Sources & Credits</h3>
+    <hr class="notop">
+    <p>
+        The following sources and files have been used to build up this theme</p>
+    <ul style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            Foodimages &amp; Fotos &nbsp;purchased
+            from&nbsp;<a href="http://www.bigstockphoto.com/" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; " target="_blank">i</a>StockPhoto
+            and also from my own photographs
+        </li>
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            Twitter Bootstrap - <a href="http://twitter.github.com/bootstrap">http://twitter.github.com/bootstrap/</a>
+        </li>
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            jQuery - <a href="http://www.jquery.com">http://www.jquery.com</a>
+        </li>
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            Theme framework based on Bootstrap - <a href="http://www.rootstheme.com/">http://www.rootstheme.com/</a>
+        </li>
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            Options framework - <a href="https://github.com/leemason/NHP-Theme-Options-Framework">https://github.com/leemason/NHP-Theme-Options-Framework</a>
+        </li>
+
+    </ul>
+    <hr style="display: block; height: 0px; line-height: 0px; border-right-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); margin-top: 16px; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; -webkit-text-size-adjust: none; ">
+    <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+        Once again, thank you so much for purchasing this theme. As we sat the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. &nbsp;If you have a more general question relating
+        to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+
+    <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+        <strong style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: 700; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; ">createIT</strong>
+    </p>
+</section>
+</div>
+
+<script type="text/javascript" src="syntaxh/js/shCore.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushJScript.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushCss.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushXml.js"></script>
+
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+</body>
+</html>
